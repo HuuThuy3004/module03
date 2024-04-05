@@ -1,0 +1,14 @@
+* CSR: Client-side render -> khi request gửi tới server thì muốn lấy data thì phải nhờ client 
+(Các thư viên framework vd: ReactJS , Vue , Angular) 
+=> Ko tối ưu SEO
+* SSR: server-side render -> -> khi request gửi tới server thì server trả về data
+=> Tối ưu SEO
+#Node JS : môi trường thực thi file.js -> tức là nó sẽ thực thi JS đc
+- Cái lõi của Nodejs là V8-engine giúp biên dịch file.js ra ngôn ngữ mà máy tính có thể hiểu
+- Máy tính chỉ hiểu ngôn ngữ mã nhị phân 
+- Những trình duyệt sẽ chữa những cái JS engine riêng
+
+
+*Khởi tạo project node.js
++ npm init
++ npm init -y
